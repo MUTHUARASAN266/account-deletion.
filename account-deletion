@@ -1,62 +1,167 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Delete Your Account — Arokya Unavu</title>
+
   <style>
-    body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-    h1 { font-size: 1.6em; }
-    h2 { font-size: 1.2em; margin-top: 1.8em; }
-    ul { padding-left: 1.2em; }
-    .note { background: #f6f6f6; border-left: 4px solid #999; padding: 12px 16px; margin: 1.5em 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #ffffff;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 0.8em;
+      color: #2E7D32;
+    }
+
+    h2 {
+      font-size: 1.25em;
+      margin-top: 2em;
+      margin-bottom: 0.6em;
+      color: #333;
+    }
+
+    p {
+      margin: 0.8em 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 1.4em;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      color: #2E7D32;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      background: #f6f6f6;
+      border-left: 4px solid #2E7D32;
+      padding: 12px 16px;
+      margin: 1.5em 0;
+    }
+
+    .contact {
+      margin-top: 2em;
+    }
   </style>
-  </head>
-  <body>
-  
+</head>
+
+<body>
+
   <h1>Delete Your Arokya Unavu Account</h1>
 
   <p>
-    Arokya Unavu lets you request deletion of your account and the personal
-    data associated with it at any time. Since account deletion is not yet
-    available directly within the app, follow the steps below to submit a
-    request.
+    Arokya Unavu allows you to request deletion of your account and the
+    personal data associated with your account at any time.
   </p>
 
-  <h2>How to request deletion</h2>
+  <p>
+    Account deletion is currently not available directly within the app.
+    To request account deletion, please follow the steps below.
+  </p>
+
+  <h2>How to Request Account Deletion</h2>
+
   <ol>
-    <li>Send an email to <a href="mailto:km.arasankpk266@gmail.com">km.arasankpk266@gmail.com</a>
-        (or <a href="mailto:mutharasan.karuppaiyan@gmail.com">mutharasan.karuppaiyan@gmail.com</a>)
-        from the email address associated with your Arokya Unavu account.</li>
-    <li>Use the subject line: <strong>"Arokya Unavu — Account Deletion Request"</strong>.</li>
-    <li>Include the name you used to sign up, so we can locate your account.</li>
+    <li>
+      Send an email from the email address associated with your
+      Arokya Unavu account to
+      <a href="mailto:km.arasankpk266@gmail.com">
+        km.arasankpk266@gmail.com
+      </a>.
+    </li>
+
+    <li>
+      Use the following subject line:
+      <strong>Arokya Unavu — Account Deletion Request</strong>
+    </li>
+
+    <li>
+      Include the name used to create your Arokya Unavu account
+      so that we can identify your account.
+    </li>
   </ol>
 
-  <p>We will confirm your identity and process the request within 30 days.</p>
+  <p>
+    We may request additional information when necessary to verify
+    account ownership before processing the deletion request.
+  </p>
 
-  <h2>What gets deleted</h2>
+  <p>
+    We will process your account deletion request within 30 days.
+  </p>
+
+  <h2>What Gets Deleted</h2>
+
   <ul>
-    <li>Your account credentials (name, email address, and password) stored with our authentication provider (Firebase Authentication).</li>
+    <li>
+      Your Arokya Unavu account.
+    </li>
+
+    <li>
+      Your name and email address associated with the account.
+    </li>
+
+    <li>
+      Your authentication credentials stored through
+      Firebase Authentication.
+    </li>
   </ul>
 
-  <h2>What is not affected</h2>
+  <h2>What Is Not Affected</h2>
+
   <p>
-    Arokya Unavu's recipe, food, and remedy content is shared app-wide and is
-    not tied to your individual account, so deleting your account does not
-    affect this content. We do not currently store any other personal data
-    (such as saved favorites) on our servers — that information, if any,
-    exists only on your device and is removed when you uninstall the app.
+    Arokya Unavu's food, recipe, remedy, and health-related content is
+    shared app-wide and is not associated with an individual user account.
+    Therefore, deleting your account does not affect this content.
   </p>
+
+  <p>
+    We do not currently store additional personal data such as saved
+    favorites on our servers. Any locally stored information on your
+    device is removed when the app's local data is cleared or the app
+    is uninstalled.
+  </p>
+
+  <h2>Data Retention</h2>
 
   <div class="note">
-    <strong>Retention:</strong> After deletion, your account data is
-    permanently removed from our systems within 30 days and is not recoverable.
+    <strong>Retention:</strong>
+    After your account deletion request is completed, the personal data
+    associated with your account will be permanently deleted from our
+    active systems within 30 days and cannot be recovered.
   </div>
 
-  <p>
-    Questions about this process? Contact us at
-    <a href="mailto:km.arasankpk266@gmail.com">km.arasankpk266@gmail.com</a>.
+  <h2>Contact Us</h2>
+
+  <p class="contact">
+    If you have any questions about account deletion, please contact us at:
   </p>
 
-  </body>
-  </html>
+  <p>
+    <a href="mailto:km.arasankpk266@gmail.com">
+      km.arasankpk266@gmail.com
+    </a>
+  </p>
+
+</body>
+</html>
